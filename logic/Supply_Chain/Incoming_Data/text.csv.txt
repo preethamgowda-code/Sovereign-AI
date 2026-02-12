@@ -1,0 +1,4 @@
+EBELN,LIFNR,MATNR,NETPR,WAERS
+450001,Vendor_Alpha,Server_Rack_A,50000,INR
+450002,Vendor_Alpha,Server_Rack_A,50000,INR
+450003,Vendor_Alpha,Server_Rack_A,75000,INR
