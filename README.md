@@ -16,7 +16,7 @@ graph LR
     LOG -->|Live Feed| DASH[Streamlit Dashboard]
     DASH -->|Export| PDF[Official Audit PDF]
     end
-
+```
 ## 🚀 Getting Started
 
 ### Prerequisites
