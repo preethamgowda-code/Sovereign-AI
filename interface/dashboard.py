@@ -79,9 +79,43 @@ if history_text:
 else:
     st.warning("⚠️ No Neural Log found. Process data in the Watcher to enable PDF export.")
 
-# 7. Visual Analytics & History (Keep previous logic below)
+# 7. Visual Analytics & History
 st.subheader("📊 Energy Consumption Trends")
-# ... [Keep your existing line_chart logic here] ...
+# (Assuming you have energy data loaded in a DataFrame called 'df')
+# st.line_chart(df) 
+
 st.divider()
+
+# 8. Neural Decision History
 st.subheader("📜 Neural Decision History")
 st.text_area("Audit Trail", value=history_text, height=300)
+
+st.divider()
+
+# 9. PHASE 2: EXECUTIVE ACTION CENTER
+st.header("🛠️ Executive Action Center")
+st.write("Generate high-stakes negotiation strategies based on the latest AI Audit.")
+
+# Path for the Negotiation Log
+NEGOTIATION_LOG = os.path.join(BASE_DIR, "negotiation_log.txt")
+
+if st.button("🚀 GENERATE NEGOTIATION BRIEF"):
+    if os.path.exists(NEGOTIATION_LOG):
+        with open(NEGOTIATION_LOG, 'r') as f:
+            strategy_text = f.read()
+        
+        st.success("Strategy logic successfully extracted from Neural Kernel.")
+        
+        # Display the Strategy in a professional Markdown box
+        st.markdown("### 📄 Target Asset Strategy")
+        st.code(strategy_text, language="markdown")
+        
+        # Action: Download the Brief
+        st.download_button(
+            label="📩 DOWNLOAD STRATEGY FOR SUPPLIER",
+            data=strategy_text,
+            file_name=f"Negotiation_Brief_{datetime.now().strftime('%Y%m%d')}.txt",
+            mime="text/plain"
+        )
+    else:
+        st.error("Error: negotiation_log.txt not found. Please run core/negotiator.py first.")

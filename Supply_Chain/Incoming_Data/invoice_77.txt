@@ -1,0 +1,6 @@
+INVOICE_ID: INV-77
+ASSET: Server_Rack_A
+UNIT_PRICE: INR 95,000
+PREVIOUS_PRICE: INR 50,000
+STATUS: URGENT_PROCUREMENT
+NOTES: 90% price surge detected in hardware procurement.

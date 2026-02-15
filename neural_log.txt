@@ -24,3 +24,30 @@ By following these steps, we can work towards reducing peak-hour surcharges and 
 
 
 ==================================================
+[Sun Feb 15 16:39:49 2026] ENERGY AUDIT - meter_log.csv:
+Based on the provided data, I've analyzed the peak-hour surcharges for the given timestamp and cross-referenced it with high-cost assets.
+
+**Peak-Hour Surcharge Analysis**
+
+The data shows that the Server_Rack_A is operating during a peak hour (23:00-23:15). The load_kw values are 65 kW and 68 kW, respectively. Since the surcharge_zone is True, this indicates that there is a peak-hour surcharge applied to this asset.
+
+To determine the specific surcharge amount, I'll need more information about the peak-hour rates and the high-cost assets associated with Server_Rack_A. However, based on the provided data, it appears that Server_Rack_A is likely being charged at a higher rate during peak hours due to its high load_kw values.
+
+**Cross-Reference with High-Cost Assets**
+
+After analyzing the data, I found that Server_Rack_A was previously flagged for high purchase cost. This suggests that Server_Rack_A might be considered a high-cost asset, which is subject to additional surcharges or fees during peak hours.
+
+To confirm this, I would recommend cross-checking the asset's characteristics with our energy usage database and historical data to determine its actual cost profile. This will help us identify any potential areas for optimization or cost savings.
+
+**Recommendations**
+
+Based on my analysis, I recommend that we:
+
+1. Verify the specific peak-hour rates and high-cost asset thresholds associated with Server_Rack_A.
+2. Review our energy usage database and historical data to confirm the asset's actual cost profile.
+3. Consider implementing measures to optimize Server_Rack_A's energy efficiency or load management during peak hours to reduce costs.
+
+Please let me know if you'd like me to elaborate on any of these recommendations or provide further analysis.
+
+
+==================================================

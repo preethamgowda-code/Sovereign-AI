@@ -1,0 +1,3 @@
+timestamp,asset_id,load_kw,surcharge_zone
+2026-02-15 23:00,Server_Rack_A,65,True
+2026-02-15 23:15,Server_Rack_A,68,True
