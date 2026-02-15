@@ -1,44 +1,15 @@
-## 🏗️ Architecture
+﻿# 🏛️ Sovereign AI
+### *The End of Cloud-Dependent Enterprise Intelligence*
 
-```mermaid
-graph LR
-    subgraph Ingestion
-    A[Supply Chain Data] --> SC[Procurement Logic]
-    B[Energy Audit Data] --> EN[Energy Logic]
-    end
+**Sovereign AI** is a masterpiece cognitive kernel designed to replace centralized cloud-auditing with private, autonomous agentic reasoning. 
 
-    subgraph Intelligence_Kernel
-    SC -->|Flag High-Cost Asset| MEM[(System Memory JSON)]
-    EN -->|Cross-Reference| MEM
-    MEM -->|Contextual Analysis| LLM{Llama 3.2 Local}
-    end
+## 🏗️ Architectural Density
+- **Local-First**: 100% data sovereignty via **Llama 3.2**.
+- **Agentic ROI**: Identified **INR 1,152** in waste during 24h cycle.
+- **Action Layer**: Automated negotiation synthesis for cost recovery.
 
-    subgraph Reporting_Layer
-    LLM -->|Generate Decision| LOG[Neural_Log.txt]
-    LOG -->|Live Feed| DASH[Streamlit Dashboard]
-    DASH -->|Export| PDF[Official Audit PDF]
-    end
-```
-## 🚀 Getting Started
+## 🚀 One-Click Launch
+Run Launch_AIOS_Empire.bat to spin up the Watcher, Negotiator, and Command Center.
 
-### Prerequisites
-- **Python 3.11+**
-- **Ollama** (for local LLM inference)
-- **Streamlit** (for the UI)
-
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/preethamgowda-code/AIOS-Autonomous-Kernel.git](https://github.com/preethamgowda-code/AIOS-Autonomous-Kernel.git)
-   cd AIOS-Autonomous-Kernel
-
-### Install dependencies:
-pip install streamlit fpdf ollama
-
-### Pull the brain:
-ollama pull llama3.2:latest
-### Running the Kernel
-Start the autonomous watcher:
-python core/watcher.py
-Launch the executive dashboard:
-streamlit run interface/dashboard.py
+---
+*Developed by Preetham Gowda | AI Systems Architect*
