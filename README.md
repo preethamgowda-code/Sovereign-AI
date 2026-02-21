@@ -1,4 +1,8 @@
+
 The Sovereign Manifesto: The Post-OS Era
+=======
+
+
 
 The Problem: The Digital Colony
 For decades, we have been colonists on our own hardware.
@@ -36,4 +40,6 @@ How to Join the Revolution
 
 2. Summon the Shell: python interface/sovereign_shell.py
 
+
 3. Execute Intent: Press Alt + Space and take control.
+=======
