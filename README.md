@@ -1,45 +1,31 @@
+# 🏛️ Sovereign AI Kernel
 
-The Sovereign Manifesto: The Post-OS Era
-=======
+**Autonomous. Local-First. Enterprise-Ready.**
 
+Sovereign AI is a cognitive operating layer designed to reclaim enterprise capital through agentic negotiation and predictive auditing. Built for the "Post-OS" era, it runs 100% locally on **Llama 3.2**, ensuring total data sovereignty for high-stakes industries.
 
+---
 
-The Problem: The Digital Colony
-For decades, we have been colonists on our own hardware.
+## 🚀 The Mission (March 2027)
+I am building this platform to prove that local-first, privacy-preserving AI can outperform cloud-based giants in enterprise efficiency. Our target is a fully autonomous, multi-vertical agentic workforce ready for market deployment by march 2027.
 
-Data Dependency: Your enterprise data is farmed by cloud giants to train their models.
+## 📊 Proof of Work: Capital Recovery
+* **Recovered Capital:** ₹1,152 (Single Supply-Chain Audit)
+* **Confidence Interval:** 85% Predictive Waste Detection
+* **Data Leakage:** 0% (On-Premise Execution)
 
-Passive Tools: Traditional operating systems (Windows, macOS) are "dead." They wait for you to click; they do not think, they do not watch, and they do not protect your capital.
+## 🛠️ Project Architecture
+The system is divided into three core layers to ensure a clean "Separation of Concerns":
+* **/core**: The Sovereign Kernel, State Management, and ChromaDB Memory.
+* **/logic_engines**: Domain-specific logic for Healthcare, Energy, and Logistics.
+* **/interface**: The Sovereign Shell (Alt+Space) for real-time human-agent interaction.
 
-The "App" Tax: We are forced to jump between siloed applications to perform simple reasoning.
+## 📓 Engineering Journey (Dev-Logs)
+Unlike generated scripts, this project is built through iterative problem-solving. You can track the "Human" side of this development—including the bugs and refactors—in our logs:
+* [Dev-Log #01: Solving Recursive Logic Feedback](dev-log/01-the-recursive-logic-struggle.md)
 
-The Solution: Sovereign AI
-Sovereign AI is the world’s first Local-First Autonomous Kernel. We are building a tech giant that returns power to the individual and the enterprise.
+## 📜 Strategic Vision
+For a deep dive into the business logic and market positioning, see our [Executive Summary](docs/EXECUTIVE_SUMMARY.md).
 
-Our Three Pillars of Sovereignty
-1. Local-First Intelligence (The Vault)
-We believe intelligence should be private. Sovereign AI runs entirely on local hardware using Llama 3.2. Your supply chain logs, energy audits, and financial strategies never leave your machine. We provide the brain; you provide the sanctuary.
-
-2. Intent-Based Computing (The Death of the Icon)
-The Desktop is a relic. In Sovereign AI, the primary interface is Intent. You don't "open an app"; you issue a command to the Sovereign Shell. Our kernel schedules agents (Watcher, Negotiator) to achieve your goals while you sleep.
-
-3. Autonomous Capital Recovery (The ROI Engine)
-A computer should pay for itself. Our first vertical—Enterprise Auditing—has already proven that a Sovereign Kernel can identify over ₹1,152 in recovered capital in a single audit cycle. We aren't just managing files; we are managing Profit.
-
-Technical Architecture
-Kernel: Neurosymbolic Agentic Scheduler.
-
-Interface: Sovereign Shell (PySide6 / Global Hotkey Native).
-
-Logic Layer: Multi-Agent Cross-Vertical Reasoning (Supply Chain + Energy).
-
-Memory: Vectorized Neural Log (Llama-driven audit trails).
-
-How to Join the Revolution
-1. Clone the Kernel: git clone https://github.com/preethamgowda-code/Sovereign-AI
-
-2. Summon the Shell: python interface/sovereign_shell.py
-
-
-3. Execute Intent: Press Alt + Space and take control.
-=======
+---
+**GitHub:** [preethamgowda-code](https://github.com/preethamgowda-code)
